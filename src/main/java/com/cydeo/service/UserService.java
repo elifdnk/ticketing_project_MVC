@@ -1,4 +1,10 @@
 package com.cydeo.service;
 
-public interface UserService {
+import com.cydeo.dto.UserDTO;
+
+public interface UserService extends CrudService<UserDTO,String> {
+
+
+
+
 }
