@@ -12,9 +12,9 @@ public class UserDTO {
 
     private String firstName;
     private String lastName;
-    private String userName;
     private String phone;
     private String passWord;
+    private String userName;
     private RoleDTO role;
     private boolean enabled;
     private Gender gender;
